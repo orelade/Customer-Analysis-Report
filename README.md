@@ -1,8 +1,7 @@
 # Customer-Analysis-Report
-This is a  business customer analysis project
-i created this report analyze customers based on certain criterias for better customer related decisions.
---------------------------------------------------------------------------------
-here are some measures and columns i created to derive insights;
+This is a  business customer analysis project.
+i created this report to analyze customers based on certain criterias for better customer related decisions.
+Here are some measures and columns i created to derive insights;
 Age Bracket = 
 SWITCH( TRUE(), 'Customer Overview Data'[Customer age] >= 3 && 'Customer Overview Data'[Customer age] <= 12, "Child", 
 'Customer Overview Data'[Customer age] >= 13 && 'Customer Overview Data'[Customer age] <= 19, "Teenager",
